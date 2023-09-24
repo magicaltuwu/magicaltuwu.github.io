@@ -1,5 +1,4 @@
     let loll = location.href;
-    document.getElementById("legit").innerHTML = "This url: " + loll;
 
     function woah() {
       alert('this url: ' + loll);
