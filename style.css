@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.yotf {
+  color: white;
+  font-family: cursive;
+}
+
+.rofl {
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.okkk {
+  color: white;
+  font-family: cursive;
+}
+
+.okbro {
+  color: white;
+  font-family: cursive;
+}
+
+.okbro:hover {
+  color: #ba12ba;
+}
+
+.rofl:hover {
+  color: #ba12ba;
+}
+
+.cool {
+  background-color: green;
+  color: white;
+  padding: 15px 5px;
+  text-decoration: none;
+  font-family: cursive;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.cool:hover {
+  background-color: #06cb06;
+}

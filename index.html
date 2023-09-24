@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title id="tttt">placeholder mf</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="hello" onclick="bye()" class="okbro">Hello world</h1>
+  <script src="script.js"></script>
+
+  <div><a onclick="real()" class="cool" href="#">Click me OwO</a></div>
+
+  <h2 class="yotf" id="legit"></h2>
+
+  <script>
+
+    let loll = location.href;
+    document.getElementById("legit").innerHTML = "This url: " + loll;
+
+    function woah() {
+      alert('this url: ' + loll);
+    }
+
+    function real() {
+      document.getElementById("hello").innerHTML = 'Ratio :3'
+    }
+
+    function bye() {
+      document.getElementById("hello").innerHTML = 'Goodbye world'
+    }
+
+    function agelol() {
+      let agee = prompt('what is your age?')
+      if (agee > 1) {
+        document.getElementById("hello").innerHTML = 'bitch you are ' + agee + ' years old'
+      } else {
+        document.getElementById("hello").innerHTML = 'bitch you are ' + agee + ' year old'
+      }
+      if (agee < 1) {
+        document.getElementById("hello").innerHTML = 'man shut yo lying ass up i know you aint that young'
+      }
+      if (agee > 120) {
+        document.getElementById("hello").innerHTML = 'man shut yo lying ass up i know you aint that old'
+      }
+      if (agee == 69) {
+        document.getElementById("hello").innerHTML = 'damn you a nice number'
+      }
+      if (agee == 420) {
+        document.getElementById("hello").innerHTML = 'damn you a nice number'
+      }
+    }
+
+    function youabi() {
+      let tittle = prompt('write a title im too lazy to make one')
+      document.getElementById("tttt").innerHTML = tittle
+    }
+
+  </script>
+
+  <div><a onclick="woah()" class="cool" href="#">alternative</a></div>
+  <h3 onclick="youabi()" class="rofl">title</h3>
+  <div><a onclick="agelol()" class="cool" href="#">age</a></div>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+
+
+</body>
+
+</html>
